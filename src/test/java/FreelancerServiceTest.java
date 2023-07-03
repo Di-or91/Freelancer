@@ -13,6 +13,7 @@ class FreelancerServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void testCalculate2() {
         FreelancerService service = new FreelancerService();
