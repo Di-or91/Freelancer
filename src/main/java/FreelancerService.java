@@ -8,11 +8,11 @@ public class FreelancerService {
                 // отдыхаем
                 money = money - expenses;
                 money = money / 3;
-                monthsRest ++;
+                monthsRest++;
             } else {
                 // работаем
-            money = money + income;
-            money = money - expenses;
+                money = money + income;
+                money = money - expenses;
             }
         }
         return monthsRest;
